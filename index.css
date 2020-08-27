@@ -1,0 +1,36 @@
+.fixed_container{
+
+    width:80%;
+    position : fixed;
+    top:50%;
+    left:50%;
+    /* */
+    transform:translate(-50%, -50%);/*첫째 인자는 좌우 두번째 인자는 상하*/
+    text-align: center;
+
+}
+.logo, .inputs{
+    margin-bottom: 20px;
+}
+.inputs{
+    border:2px solid lightgray;
+    display:inline-block; /*inline으로 하면 아이콘이 삐져나온다*/
+    padding:5px;
+    border-radius: 8px;
+    
+}
+.inputs .material-icons{
+    position: relative;
+    top:5px;
+}
+.inputs input{
+    font-size: 20px;
+    width:300px;
+    border:none;
+    outline:none;
+}
+.buttons button{
+    border-radius: 5px;
+    padding: 5px 10px;/*위 아래*/
+    border: none;
+}
