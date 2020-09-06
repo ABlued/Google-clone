@@ -34,3 +34,8 @@
     padding: 5px 10px;/*위 아래*/
     border: none;
 }
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
